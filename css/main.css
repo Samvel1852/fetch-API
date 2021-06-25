@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.dogImgSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.dogSelectClass {
+    width: 30%;
+}
+
+.dogImgClass {
+    width: 400px;
+    height: 400px;
+    display: none;
+}
+
+.errSpan {
+    display: block;
+    color: red;
+}
