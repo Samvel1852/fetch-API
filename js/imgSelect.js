@@ -34,7 +34,6 @@ function dogNamesGetter () {
 dogNamesGetter();
 
 dogSelect.addEventListener("change", function (event) {
-    console.log(event.target.value);
     fetch(`https://dog.ceo/api/breed/${event.target.value}/images`)
         .then((response) => {
             if (response.status === 200) { 
