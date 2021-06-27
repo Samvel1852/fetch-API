@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.bookSearchInputClass {
+    margin: 2px;
+}
+
+.bookDetailsSectionClass {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgb(223, 213, 213);
+}
+
+.bookSearchInputClass:hover{
+    cursor: pointer;
+}
