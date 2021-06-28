@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
     <title>Select Dog</title>
     <script src="./js/imgSelect.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <section class="dogImgSection">
-        <select class="dogSelectClass" id="dogSelectId">
-            <option>--Select a breed--</option>
-        </select> <br />
-        <img class="dogImgClass" id="dogImgId" />
-        <span class="errSpan" id="errSpanId">Image is not found</span>
+      <select class="dogSelectClass" id="dogSelectId">
+        <option>--Select a breed--</option>
+      </select>
+      <div id="loaderId" class="loader"></div>
+      <br />
+      <img class="dogImgClass" id="dogImgId" />
+      <span class="errSpan" id="errSpanId">Image is not found</span>
     </section>
-</body>
+  </body>
 </html>
