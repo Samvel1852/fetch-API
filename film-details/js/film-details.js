@@ -25,13 +25,17 @@ searchBtn.addEventListener("click",function () {
             return response.filter((film, index) => film.title.toLowerCase() === searchInput.value.toLowerCase())
         })
         .then(response => {
-            console.log(response);
-            title.innerText = response[0].title;
-            description.innerText = response[0].description;
-            director.innerText = response[0].director;
-            producer.innerText = response[0].producer;
-            releaseDate.innerText = response[0].release_date;
+            if (response.length){
+                title.innerText = response[0].title;
+                description.innerText = response[0].description;
+                director.innerText = response[0].director;
+                producer.innerText = response[0].producer;
+                releaseDate.innerText = response[0].release_date;
+            } else {
+                throw new Error("no film found")
+            }
         })
+        .catch((error) => alert(error));
 })
 
 // getFilmDetails();

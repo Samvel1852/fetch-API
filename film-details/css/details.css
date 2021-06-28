@@ -20,3 +20,7 @@
 .allSectionClass {
     display: flex;
 }
+
+.searchBtnClass:hover{
+    cursor: pointer;
+}
