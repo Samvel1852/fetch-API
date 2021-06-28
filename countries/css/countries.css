@@ -1,20 +1,32 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.allCountriesBtnClass:hover{
-    cursor: pointer;
+.allCountriesBtnClass:hover {
+  cursor: pointer;
 }
 
-.countrySearchBtnClass{
-    cursor: pointer;
+.countrySearchBtnClass {
+  cursor: pointer;
 }
 
-.mainSectionClass{
-    display: flex;
-    justify-content: space-around;
+.mainSectionClass {
+  display: flex;
+  justify-content: space-around;
 }
 
-.countryName, .countryFlag:hover {
-    cursor: pointer;
+.countryName,
+.countryFlag:hover {
+  cursor: pointer;
+}
+
+.aboutArticleClass {
+  background-color: rgb(216, 205, 205);
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  width: 80%;
+  min-height: 80vh;
+  display: none;
+  position: fixed;
 }
