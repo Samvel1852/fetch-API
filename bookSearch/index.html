@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bookSearch.css" />
+    <title>Search for Books</title>
+    <script src="./js/bookSearch.js" defer></script>
+  </head>
+  <body>
+    <form id="Search" action="">
+      <input
+        name="q"
+        id="bookSearchInputId"
+        class="bookSearchInputClass"
+        type="text"
+      />
+      <br />
+      <button type="submit" id="bookSearchBtnId" class="bookSearchInputClass">
+        Search
+      </button>
+    </form>
+    <article
+      id="bookDetailsSectionId"
+      class="bookDetailsSectionClass"
+    ></article>
+    <button id="prevBtnId" class="paginationBtnClass">Prev</button>
+    <button id="nextBtnId" class="paginationBtnClass">Next</button>
+  </body>
+</html>
