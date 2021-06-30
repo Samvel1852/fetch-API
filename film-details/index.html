@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Details</title>
+    <link rel="stylesheet" href="css/details.css">
+    <script src="js/film-details.js" defer></script>
+</head>
+<body>
+    <section class="allSectionClass" id="allSectionId">
+        <section id="mainSecId" class="mainSecClass">
+            <label for="title">Title:</label>
+            <textarea style="resize: none;" class="areaClass" name="title" id="titleArea" cols="30" rows="10"></textarea>
+            <label for="description">Description:</label>
+            <textarea style="resize: none;" class="areaClass" name="description" id="descriptionArea" cols="30" rows="10"></textarea>
+            <label for="director">Director:</label>
+            <textarea style="resize: none;" class="areaClass" name="director" id="directorArea" cols="30" rows="10"></textarea>
+            <label for="producer">Producer:</label>
+            <textarea style="resize: none;" class="areaClass" name="producer" id="producerArea" cols="30" rows="10"></textarea>
+            <label for="releaseDate">Release Date:</label>
+            <textarea style="resize: none;" class="areaClass" name="releaseDate" id="releaseDateArea" cols="30" rows="10"></textarea>
+        </section>
+        <section class="searchSecClass" id="searchSecId">
+            <label for="name">Film name</label>
+            <input id="searchInputId" type="text" name="film" placeholder="write the name">
+            <button id="searchBtnId" class="searchBtnClass">Search</button>
+        </section>
+    </section>
+</body>
+</html>
